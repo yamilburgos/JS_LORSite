@@ -1,0 +1,38 @@
+body {
+  background: url('http://www.lord-of-the-rings.org/collections/maps/map10[1].jpg');
+  background-size: cover;
+  background-blend-mode: screen;
+  background-color: #FFDCD0;
+  font-size: 24px;
+  text-shadow: 1px 1px white;
+  font-weight: 800;
+}
+
+h1 {
+  font-family: 'Condiment', cursive;
+}
+
+button {
+  display: inline-block;
+  margin: 12px;
+  padding: 5px 15px;
+  font-size: 15px;
+  border: 3px solid #1D0444;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #FFDCD0;
+  transition: 0.2s all;
+}
+
+button:hover {
+  background-color: #C26B6A;
+  color: white;
+  transition: 0.2s all;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 150px auto;
+  box-sizing: border-box;
+}
